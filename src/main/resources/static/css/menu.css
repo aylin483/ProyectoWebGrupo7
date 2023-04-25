@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Open+Sans:wght@300;400;500&display=swap');*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+}
+.logo{
+  width:100%;
+  height:100vh;
+  color:#10134A;
+  font-size: 25px;
+  font-weight: 500;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #A0D7F5;
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#3182F4;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 40px;
+  
+}
+.fondo {
+        background-image: url(images/fondo.png);
+        border-radius: 4px;
+	background-position:center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+	height: auto;
+	max-width: 100%;
+	background-color: #E3EAFE;
+	
+  
+}
+
+.noticias-1 {
+    font-size: 20px;
+    line-height: 70px;
+    color: #10134A;
+    padding: 0 250px;
+    margin-bottom: 15px;
+   
+    
+}
+
+.boton-promo {
+    background-color: #59F2FF;
+    color: #10134A;
+    padding: 8px;
+    width: 115px;
+    outline: none;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+
+}
+
+.boton-promo:hover{
+    background-color:#3182F4;
+}
+#piePagina {
+    text-align: center;
+    color: white;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+h3{
+    margin: 0 auto;
+    width: 94%;
+    padding-top: 32px;
+    text-align: center;
+}
+
+footer{
+      background: #34416B;
+      text-align: center;
+      text-transform: uppercase;
+      color:#A0D7F5
+      
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.sociales a{
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size: 25px;
+    
+}
+
+.sociales a:hover{
+    color:#3182F4;
+}
+
+.footer-copyright{
+    background-color: #10134A;
+    color: #FFFFFF;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+    
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.4;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
+
+
+.promo-btn {
+  
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+    
+}
+
+.cabina-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.galeria-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.contactar-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.isesion-btn {
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.registrar-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.reservar-btn {
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+h2{
+      text-align: center;
+}

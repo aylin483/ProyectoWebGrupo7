@@ -1,0 +1,82 @@
+.cabinas{
+    margin:40px 0;
+}
+
+.cabina{
+    margin: 45px;
+    padding-bottom:25px;
+    background: #34416B;
+    color:#ffffff;
+    
+}
+.titulo{
+    position: relative;
+    
+}
+.cabina{
+    margin: 40px 0;
+}
+
+.cabina-texto{
+    padding: 5px 20px;
+}
+
+.cabina-texto h3{
+    font-size:24px;
+    
+}
+.cabina-texto ul{
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+.cabina-texto ul li{
+    padding: 7px 0;
+    
+}
+
+.cabina-texto ul li i{
+    color: #A0D7F5;
+    margin-right: 10px;
+}
+.precio{
+    opacity: 08;
+    
+}
+.precio{
+    font-size: 40px;
+    font-weight: 900;
+    color: #A0D7F5;
+    
+}
+
+.cabina-imagen{
+    overflow: hidden;
+    
+    
+}
+.cabina-imagen img{
+    transition: var(--transition);
+}
+.cabina-imagen:hover img{
+    transform: scale(1.1);
+}
+
+img {
+ display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-reserva{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+ 

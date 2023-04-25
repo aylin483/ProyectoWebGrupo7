@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cabinas Beach Paradise</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="/images/palm2.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+        <link href="/css/menu.css" rel="stylesheet" type="text/css"/>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <!-- para iconos -->
+        <link href="/css/cabinas.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/reservar.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/pago.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+            <nav class="nav">
+                <a href="/Index" class="logo nav-link">Cabinas Beach Paradise</a>
+            </nav>
+            <br/>
+            <br/>
+            <br/>
+            
+            <div class="row">
+                <div class="col-75">
+                    <div class="container">
+                        <form action="/action_page.php">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <h3>Datos personales</h3>
+                                    <label for="fname"><i class="fa fa-user"></i> Nombre Completo</label>
+                                    <input type="text" id="fname" name="firstname" placeholder="Nombre apellidos">
+                                    <label for="email"><i class="fa fa-envelope"></i> Correo</label>
+                                    <input type="text" id="email" name="email" placeholder="usuario@ejemplo.com">
+                                    <label for="adr"><i class="fa fa-address-card-o"></i> Dirección</label>
+                                    <input type="text" id="adr" name="address" placeholder="Sigma Business Center Contiguo al Mall San Pedro, San José">
+                                    <label for="city"><i class="fa fa-institution"></i> Ciudad</label>
+                                    <input type="text" id="city" name="city" placeholder="San José">
+
+                                        <div class="col-50">
+                                            <label for="zip">Código Postal</label>
+                                            <input type="text" id="zip" name="zip" placeholder="10103">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-50">
+                                    <h3>Datos de pago</h3>
+                                    <label for="fname">Métodos de pago aceptados</label>
+                                    <div class="icon-container">
+                                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                    </div>
+                                    <label for="cname">Nombre en tarjeta</label>
+                                    <input type="text" id="cname" name="cardname" placeholder="Nombre apellidos">
+                                    <label for="ccnum">Numero de tarjeta</label>
+                                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                    <label for="expmonth">Mes de vencimiento</label>
+                                    <input type="text" id="expmonth" name="expmonth" placeholder="Octubre">
+
+                                    <div class="row">
+                                        <div class="col-50">
+                                            <label for="expyear">Año de vencimiento</label>
+                                            <input type="text" id="expyear" name="expyear" placeholder="2027">
+                                        </div>
+                                        <div class="col-50">
+                                            <label for="cvv">CVV</label>
+                                            <input type="text" id="cvv" name="cvv" placeholder="352">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                            <input type="submit" value="Realizar Pago" class="btn">
+                            
+                        </form>
+                    </div>
+                </div>
+            
+            <footer> 
+            <div class="pie-Pagina">
+                <h3>Contáctanos</h3>
+                <ul class="sociales"> 
+                    <li><a href="https://www.instagram.com/cabinasbeachparadise/?hl=en"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.facebook.com/cabinasenguanacaste/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="https://wa.me/88288861?text=¡Deseo más información sobre las cabinas!"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p> Copyright @ 2023 Grupo 7. All Rights Reserved </p>
+            </div>
+        </footer>
+
+    </body>
+</html>
+

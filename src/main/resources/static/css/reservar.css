@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+   
+    
+}
+
+.input{
+    outline: none;
+    border: none;
+    width: 100%;
+    
+}
+
+.booking {
+    padding: 40px 0;
+    background:  #5e5e5e;
+    color:  #fff;
+ 
+}
+.booking h1 span {
+    color: #59F2FF;
+    
+}
+
+.booking input {
+    padding: 20px;
+}
+
+.booking input:nth-last-child(1) {
+    background:  #59F2FF;
+    color: #fff;
+}
