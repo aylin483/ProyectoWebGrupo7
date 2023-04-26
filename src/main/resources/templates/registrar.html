@@ -34,10 +34,10 @@
 
                                     <a href="/cabinas/promociones" class= "promo-btn">Promociones</a>
                                     <a href="/cabinas/cabinas" class= "cabina-btn">Cabinas</a>
-                                    <a href="galeria.html" class= "galeria-btn">Galeria</a>
-                                    <a href="contactar.html" class= "contactar-btn">Contacto</a>
+                                    <a href="/galeria" class= "galeria-btn">Galeria</a>
+                                    <a href="/contactar" class= "contactar-btn">Contacto</a>
                                     <a href="/iniciosesion/iniciosesion" class= "isesion-btn">Iniciar Sesión</a>
-                                    <a href="/registrar" class= "registrar-btn">Registrarse</a> 
+                                    <a href="/registrar" class= "registrar-btn">Registrarse</a>
                                 </div>
                             </div>
                         </div>
@@ -71,17 +71,36 @@
                 <div class="forms">
                     <div>
                         <h2>Registrarse</h2>
-                        <form action="#">
-                            <input type="text" placeholder="Nombre">
-                            <input type="text" placeholder="Apellidos">
-                            <input type="text" placeholder="Telefono"> 
-                            <input type="text" placeholder="Correo">
+                        <form class="regist-form" th:action="@{/registrarUsuario}" th:object="${usuario}" method="post">
+                            <div class="mb-3">
+                            <label for="name" class="name-form">Nombre</label>
+                            <input type:text="nombre" class="form-control" placeholder="Ingrese su nombre">
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label for="name" class="name-form">Apellidos</label>
+                            <input type:text="apellidos" class="form-control" placeholder="Ingrese sus apellidos">
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label for="name" class="name-form">Teléfono</label>
+                            <input type:number="telefono" class="form-control" placeholder="Ingrese su teléfono">
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label for="name" class="name-form">Correo electrónico</label>
+                            <input type:text="correo" class="form-control" placeholder="Ingrese su correo">
+                            </div>
+                            
                             <div class="password-container"> 
-                                <input type="password" placeholder="Contraseña" id="password">
+                                 <label for="name" class="name-form">Contraseña</label>
+                                <input type="password" placeholder="Ingrese su contraseña" id="password">
                             </div>
                         </form>
                     </div>
-                    <a href="@{/registrar}" class= "registrar-btn">Registrarse</a> 
+                    
+                   <!-- <a href="@{/registrar}" class= "registrar-btn">Registrarse</a> -->
+                   <button type="submit" class="registrar-btn">Registrarse</button>
                      <a href="/registrado" class= "isesion-btn">Iniciar Sesión</a>
                     <div>¿Ya tienes cuenta? <a href="/iniciosesion/iniciosesion">
                             Inicia sesión aquí
@@ -90,7 +109,8 @@
             </div>
         </section>
         <br/>
-
+        <br/>
+        
         <footer> 
             <div class="pie-Pagina">
                 <h3>Contáctanos</h3>

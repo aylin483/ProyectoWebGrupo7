@@ -32,7 +32,7 @@ public class Registrar implements Serializable {
     @Column(nullable = false, unique = true, length = 50) //no todos los usuarios tienen que tener el mismo correo
     private String correo;
 
-    @Column(nullable = false, length = 65) //no todos los usuarios tienen que tener el mismo correo
+    @Column(nullable = false, length = 65) 
     private String password;
      
     public Registrar() {
