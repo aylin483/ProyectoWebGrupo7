@@ -30,22 +30,15 @@ public class RegistrarController {
     public String registro (Model model) {
        
         
-        var registros = registrarDao.findAll();
-        model.addAttribute("registros", registros);
+        var registro = registrarDao.findAll();
+       model.addAttribute("registro", registro);
+      
         return "/registrar";
     
     }
-    
-   // @PostMapping("registrarUsuario")
-  // public String registrarUsuario(@ModelAttribute("usuario") Registrar registrar){
-     //  System.out.println(registrar);
-     //  service.(registrar);
-      //  return "/Index";
-       
-   }
-// }
-       
    
+   }
+ 
 
 
     

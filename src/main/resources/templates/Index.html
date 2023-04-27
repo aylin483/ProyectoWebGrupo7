@@ -83,7 +83,7 @@
             <br/>
         </section>
 
-        <footer> 
+        <footer th:fragment="footer" class="footer"> 
             <div class="pie-Pagina">
                 <h3>Contáctanos</h3> 
                 <ul class="sociales"> 
@@ -95,7 +95,9 @@
                 </ul>
             </div>
             <div class="footer-copyright">
-                <p> Copyright @ 2023 Grupo 7. All Rights Reserved </p>
+                <p>&COPY; 2023 Grupo 7. Todos los derechos reservados </p>
+                <a th:href="@{/(lang=es}">ES</a> | 
+                <a th:href="@{/(lang=es}">En</a>
             </div>
         </footer>
 

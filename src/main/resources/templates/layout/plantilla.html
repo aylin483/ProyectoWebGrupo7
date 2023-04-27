@@ -1,0 +1,16 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://thymeleaf.org/extras/spring-security">
+    <head th:fragment="head">
+        <title>Plantilla</title>
+        <meta charset="UTF-8"/>        
+    </head>
+    <body>
+        <footer th:fragment="footer" >
+            <p class="lead text-center">
+                [[#{plantilla.derechos}]]
+                <a th:href="@{/(lang=es)}">ES</a> | 
+                <a th:href="@{/(lang=en)}">EN</a>
+            </p>
+        </footer>
+    </body>
+</html>
